@@ -39,6 +39,8 @@ This is the original paper:
     We used two different architectures. First, we tried a network with one hidden layer. Originally we did this to see if everything else like the datagenerator works. We were surprised by its performance which is why we kept it. The other architecture we tried is a convulutional neural network with multiple max pooling and convolutional layers. The performance of the networks on our validation dataset turned out to be very similar and was around 98%.
     <br>
     The models are in the directories 'simple_nn' and 'simple_conv'. Both folders contain a jupyter notebook which was used to train the models and some different version of the models that we experimented with.
+    <br>
+    Since all our subsets (train, validation, test) are from the same two parking lots, it's possible that our models overfit, even though we only trained them for one epoch. Therefore, it's possible that our models don't generalize very well to data from new parking lots.
 </p>
 
 ## Heatmaps
