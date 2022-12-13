@@ -6,7 +6,7 @@ import pdb
 
 ROOT = os.path.dirname(os.path.abspath(__file__))  # root directory of this code
 
-path = os.path.join(ROOT, '/Users/ludwig/Documents/College/Semester5/ai2/project2/PKLot/PKLot/PUCPR/Cloudy/2012-09-12/')
+path = os.path.join(ROOT, './PKLot/PKLot/PUCPR/Cloudy/2012-09-12/')
 
 def print_bbox(img, anns):
     '''draw bounding boxes on an image
