@@ -36,7 +36,7 @@ This is the original paper:
 
 ## Neural Networks Used
 <p>
-    We used two different architectures. First, we tried a network with one hidden layer. Originally we did this to see see if everything else like the datagenerator works. We were surprised by its performance which is why we kept it. The other architecture we tried is a convulutional neural network with multiple max pooling and convolutional layers. The performance of the networks on our validation dataset turned out to be very similar and was around 98%.
+    We used two different architectures. First, we tried a network with one hidden layer. Originally we did this to see if everything else like the datagenerator works. We were surprised by its performance which is why we kept it. The other architecture we tried is a convulutional neural network with multiple max pooling and convolutional layers. The performance of the networks on our validation dataset turned out to be very similar and was around 98%.
     <br>
     The models are in the directories 'simple_nn' and 'simple_conv'. Both folders contain a jupyter notebook which was used to train the models and some different version of the models that we experimented with.
 </p>
